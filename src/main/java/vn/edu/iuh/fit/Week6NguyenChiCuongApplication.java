@@ -14,12 +14,12 @@ private UserRepository  userRepository;
     public static void main(String[] args) {
         SpringApplication.run(Week6NguyenChiCuongApplication.class, args);
     }
-  @Bean
-    public CommandLineRunner commandLineRunner() {
-        return args -> {
-//            System.out.println(userRepository.existsUserByEmailAndPassword("a@gmail.com","123"));
-            System.out.println(userRepository.findNameByEmail("abc@gmail.com"));
-        };
-    }
+//  @Bean
+//    public CommandLineRunner commandLineRunner() {
+//        return args -> {
+////            System.out.println(userRepository.existsUserByEmailAndPassword("a@gmail.com","123"));
+//            System.out.println(userRepository.findNameByEmail("abc@gmail.com"));
+//        };
+//    }
 }
 
